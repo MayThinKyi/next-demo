@@ -1,8 +1,5 @@
+import Link from "next/link";
 
 export default function Home() {
-  return (
-    <div>
-      Home Page
-    </div>
-  )
+  return <div className="flex justify-center align-center">Home Page</div>;
 }
